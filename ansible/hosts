@@ -1,0 +1,4 @@
+# By default, playbooks will run locally (i.e. current docker container).
+[local]
+localhost ansible_connection=local
+
